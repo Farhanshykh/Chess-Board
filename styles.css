@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+}
+
+.board{
+    height: 800px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row{
+    height: 100px;
+    width: 100%;
+}
+
+img{
+    height: 80px;
+    margin: 5px auto;
+    display: block;
+}
+
+.odd{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin: -2px;
+}
+
+.even{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: -2px;
+}
